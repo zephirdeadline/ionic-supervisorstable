@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Domains list</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-card *ngFor="let domain of domains">
+    <ion-card-header>
+      {{domain.name}}
+    </ion-card-header>
+    <ion-card-content>
+      Etat du serveur: {{domain.status}}
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>
