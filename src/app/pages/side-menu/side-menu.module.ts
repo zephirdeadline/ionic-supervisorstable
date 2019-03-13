@@ -19,6 +19,10 @@ const routes: Routes = [
       {
         path: 'domains-list',
         loadChildren: '../domains-list/domains-list.module#DomainsListPageModule'
+      },
+      {
+        path: 'settings',
+        loadChildren: '../settings/settings.module#SettingsPageModule'
       }
     ]
   }];

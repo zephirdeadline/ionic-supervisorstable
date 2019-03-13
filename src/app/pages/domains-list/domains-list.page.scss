@@ -1,0 +1,23 @@
+@media (max-width: 476px) {
+  ion-col {
+    flex-basis: 100%;
+  }
+}
+@media (max-width: 768px) {
+
+  ion-col {
+    flex-basis: 50%;
+  }
+}
+
+.danger {
+  background-color: var(--danger)
+}
+
+.success {
+  background-color: var(--success)
+}
+
+a {
+  text-decoration: none;
+}

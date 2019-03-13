@@ -1,5 +1,7 @@
 {
   "name": "ionicSupervisor",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

@@ -18,6 +18,10 @@ export class SideMenuPage implements OnInit {
     {
       title: 'About',
       url: '/side-menu/about'
+    },
+    {
+      title: 'Settings',
+      url: '/side-menu/settings'
     }
   ];
 
